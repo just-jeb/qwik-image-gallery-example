@@ -15,7 +15,7 @@ export default component$(() => {
 
       <ul>
         <li>
-          <a onClick$={() => alert('Hello Qwik')}>Click me for Alert</a>
+          <a href="#" onClick$={() => alert('Hello Qwik')}>Click me for Alert</a>
         </li>
         <li>
           <a href="https://qwik.builder.io/docs/components/overview/" target="_blank">
